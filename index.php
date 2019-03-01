@@ -20,7 +20,8 @@
 </head>
 <body>
     <h1>Handled by <?php print_r(gethostname()); ?></h1>
-    <p>Session ID: <?php print_r($_COOKIE['mysession']) ?></p>
+    <p>Sticky Session ID: <?php print_r($_COOKIE['TestSession']) ?></p>
+    <p>PHP Session ID: <?php print_r($_COOKIE['mysession']) ?></p>
     <p>Page Views: <?php print_r($_SESSION['views']); ?></p>
 </body>
 </html>
