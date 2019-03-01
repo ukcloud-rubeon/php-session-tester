@@ -14,8 +14,8 @@
     <title>Cookie Monster</title>
 </head>
 <body>
-    <h1>Handled by <? print_r(gethostname()); ?></h1>
-    <p>Session ID: <? print_r($_COOKIE['TestSession']) ?></p>
-    <p>Page Views: <? print_r($_SESSION['views']); ?></p>
+    <h1>Handled by <?php print_r(gethostname()); ?></h1>
+    <p>Session ID: <?php print_r($_COOKIE['TestSession']) ?></p>
+    <p>Page Views: <?php print_r($_SESSION['views']); ?></p>
 </body>
 </html>
