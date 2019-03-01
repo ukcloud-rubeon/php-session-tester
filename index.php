@@ -11,7 +11,7 @@
 
 <html>
 <head>
-    <title>Cookie Monster</title>
+    <title>Session Monster</title>
 </head>
 <body>
     <h1>Handled by <?php print_r(gethostname()); ?></h1>
