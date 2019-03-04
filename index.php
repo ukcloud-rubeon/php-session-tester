@@ -1,6 +1,6 @@
 <?php
     session_set_cookie_params(3600);
-    session_name("mysession");
+    session_name(gethostname() + "~mysession");
     session_start();
     /* increment `views` variable */
     if(isset($_SESSION['views']))
